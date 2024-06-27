@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coffee House</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.cdnfonts.com/css/inter?styles=29134,29143,29133,29136,29138,29141,29129,29131,29127"
+      rel="stylesheet"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="../../assets/icons/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <div class="header-container">
+          <div class="logo">
+            <a href="../../index.html">
+              <img
+                src="../../assets/icons/logo.svg"
+                alt="resources coffee house"
+              />
+            </a>
+          </div>
+
+          <div id="burger-id" class="burger">
+            <div class="burger-circle">
+              <div class="burger-line-top"></div>
+              <div class="burger-line-bottom"></div>
+            </div>
+          </div>
+
+          <div class="nav-menu-container">
+            <nav class="nav-page-container">
+              <ul class="nav-page-list">
+                <li class="nav-page-item">
+                  <a class="menu-link" href="../../index.html#favorite-coffee">Favorite coffee</a>
+                </li>
+                <li class="nav-page-item">
+                  <a class="menu-link" href="../../index.html#about">About</a>
+                </li>
+                <li class="nav-page-item">
+                  <a class="menu-link" href="../../index.html#mobile-app">Mobile app</a>
+                </li>
+                <li class="nav-page-item">
+                  <a class="menu-link" href="#contact-us">Contact us</a>
+                </li>
+              </ul>
+            </nav>
+
+            <div class="menu-item">
+              <div class="nav-menu-link menu-link">
+                Menu
+                <img
+                  class="menu-item-img"
+                  src="../../assets/icons/coffee-cup.svg"
+                  alt="coffee cup icon"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <!-- Offer block -->
+
+      <div class="offer-container">
+        <div class="offer-heading-2">
+          <h2 class="heading-2">
+            Behind each of our cups hides an
+            <span class="heading2-italic">amazing surprise</span>
+          </h2>
+        </div>
+
+        <!-- BUTTON and CARDS -->
+
+        <div class="tabs">
+          <div class="buttons-container" role="tablist" aria-label="content">
+            <button
+              class="offer-button"
+              role="tab"
+              aria-selected="true"
+              id="coffee"
+            >
+              <span class="offer-button-content">
+                <span class="circle-coffee-cup-icon">
+                  <img
+                    src="../../assets/icons/cup-of-coffee-icon.svg"
+                    alt="coffee of cup icon"
+                  />
+                </span>
+                <span class="button-text">Coffee</span>
+              </span>
+            </button>
+
+            <button
+              class="offer-button"
+              role="tab"
+              aria-selected="false"
+              id="tea"
+            >
+              <span class="offer-button-content">
+                <span class="circle-coffee-cup-icon">
+                  <img
+                    src="../../assets/icons/teapot-icon.svg"
+                    alt="coffee of cup icon"
+                  />
+                </span>
+                <span class="button-text">Tea</span>
+              </span>
+            </button>
+
+            <button
+              class="offer-button"
+              role="tab"
+              aria-selected="false"
+              id="dessert"
+            >
+              <span class="offer-button-content">
+                <span class="circle-coffee-cup-icon">
+                  <img
+                    src="../../assets/icons/cake-icon.svg"
+                    alt="coffee of cup icon"
+                  />
+                </span>
+                <span class="button-text">Dessert</span>
+              </span>
+            </button>
+          </div>
+
+          <div class="wrapper-cards-block">
+            <div class="container-cards">
+              <!-- вставляем генерируемые из JSON карточки товаров -->
+            </div>
+
+            <div class="button-visibility">
+              <button class="refresh-button">
+                <svg class="refresh">
+                  <use
+                    href="../../assets/icons/sprite.svg#sprite-refresh"
+                  ></use>
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer id="contact-us" class="footer-container">
+        <div class="social-networks">
+          <h2 class="heading-1 text-left">
+            <span class="heading2-light">Sip, Savor, Smile. </span
+            ><span class="heading2-italic">It's coffee time!</span>
+          </h2>
+
+          <div class="social-networks-icons">
+            <a
+              class="social-icon-border"
+              href="https://twitter.com/"
+              target="_blank"
+            >
+              <svg class="social-logo">
+                <use href="../../assets/icons/sprite.svg#sprite-twitter"></use>
+              </svg>
+            </a>
+
+            <a
+              class="social-icon-border"
+              href="https://www.instagram.com/"
+              target="_blank"
+            >
+              <svg class="social-logo">
+                <use
+                  href="../../assets/icons/sprite.svg#sprite-instagram"
+                ></use>
+              </svg>
+            </a>
+
+            <a
+              class="social-icon-border"
+              href="https://www.facebook.com/"
+              target="_blank"
+            >
+              <svg class="social-logo">
+                <use href="../../assets/icons/sprite.svg#sprite-facebook"></use>
+              </svg>
+            </a>
+          </div>
+        </div>
+        <div class="contacts">
+          <h3 class="heading-3">Contact us</h3>
+          <ul class="list-reset footer-contact-list">
+            <li class="text-left text-contacts">
+              <a
+                class="contact-link"
+                href="https://maps.app.goo.gl/C8R43ALSpxAkvuHd7"
+                target="_blank"
+              >
+                <img src="../../assets/icons/pin-alt.svg" alt="pin alt" />
+                <span>8558 Green Rd., LA</span>
+              </a>
+            </li>
+            <li class="text-left text-contacts">
+              <a class="contact-link" href="tel:+1(603)555-0123">
+                <img src="../../assets/icons/phone.svg" alt="phone icon" />
+                <span>+1 (603) 555-0123</span>
+              </a>
+            </li>
+            <li class="text-left text-contacts contact-time">
+              <img src="../../assets/icons/clock.svg" alt="clock icon" />
+              <span>Mon-Sat: 9:00 AM - 23:00 PM</span>
+            </li>
+          </ul>
+        </div>
+      </footer>
+    </div>
+    <script src="../../scripts/burger.js"></script>
+
+    <script type="module" src="../../scripts/main.js"></script>
+  </body>
+</html>
