@@ -29,26 +29,32 @@ The Coffee House project is divided into three key stages:
 - **Home Page:** Welcomes visitors to the Coffee House, providing an overview of offerings and atmosphere.
 - **Menu Page:** Displays the available coffee and snack options with detailed descriptions.
 
+## Technology Stack
+
+- **HTML:** Structured and semantic markup.
+- **CSS:** Styling and layout.
+- **JavaScript:** Interactivity and functionality.
+
 ## Getting Started
 
 ### Running Locally
 To run the Coffee House project locally:
 
 1. Clone the repository:
-   
-   `git clone https://github.com/Chekhanadski/cafe-coffee-house.git`
+
+   ```sh
+   git clone https://github.com/Chekhanadski/cafe-coffee-house.git
+   ```
    
 3. Navigate to the project directory:
 
-   `cd cafe-coffee-house`
+    ```sh
+   cd cafe-coffee-house
+    ```
    
 4. Start a live server:
     - If you have VS Code, you can use the Live Server extension.
     - Alternatively, use any live server of your choice (e.g., Python's SimpleHTTPServer).
+      
 5. Open `index.html` with your live server to view the Coffee House website.
 
-## Technology Stack
-
-- **HTML:** Structured and semantic markup.
-- **CSS:** Styling and layout.
-- **JavaScript:** Interactivity and functionality.
