@@ -1,4 +1,10 @@
+*This project was initially developed in a private repository as part of the Rolling Scopes School JavaScript course. After the course completion, it was transferred to my personal repository.*
+
 # Coffee House
+
+## Additional Information
+
+This project was initially developed in a private repository as part of the Rolling Scopes School JavaScript course. After the course completion, it was transferred to my personal repository.
 
 ## View the Project
 You can view the deployed Coffee House website here: [Coffee House](https://rolling-scopes-school.github.io/chekhanadski-JSFE2023Q4/coffee-house/)
